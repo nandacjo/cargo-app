@@ -4,14 +4,14 @@
 <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
 <meta name="author" content="AdminKit">
 <meta name="keywords"
-    content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+  content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="shortcut icon" href="{{ asset('adminkit/img/icons/icon-48x48.png') }}" />
 
 <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
-<title>Toko Online - {{ $title ?? '' }}</title>
+<title>Cargo App - {{ $title ?? '' }}</title>
 @vite('resources/sass/app.scss')
 
 <link href="{{ asset('adminkit/css/app.css') }}" rel="stylesheet">
